@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multiresolution Streamgraph to Explore Hierarchical Time Series
 ### A new approah to convey the hierarchical structure of multiple time series
 Authors: ADVANSE team at LIRMM
@@ -44,3 +45,7 @@ Get the last version of this approach with:
 
 
 ## License
+=======
+# multistream
+MultiStream: A Multiresolution Streamgraph Approach to Explore Hierarchical Time Series
+>>>>>>> 65f88b558c8d857f5a2b1099b8d7be4e2218b887
