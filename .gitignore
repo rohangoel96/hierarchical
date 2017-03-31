@@ -7,9 +7,10 @@ source/2013_australian_presidential_period/xlsx
 source/2016_uefa_champions_league_final/bruto
 source/2016_uefa_champions_league_final/csv
 source/2016_uefa_champions_league_final/xlsx
-source/music_genres_evolution/bruto
-source/music_genres_evolution/csv
-source/music_genres_evolution/xlsx
+source/music_genre_evolutiona/bruto
+source/music_genre_evolutiona/csv
+source/music_genre_evolutiona/xlsx
+source/music_genre_evolutiona/json
 source/2014_rugby_union_match/bruto
 source/2014_rugby_union_match/csv
 source/2014_rugby_union_match/xlsx
