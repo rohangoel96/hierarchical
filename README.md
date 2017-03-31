@@ -32,7 +32,7 @@ The code is hosted at [Github](https://github.com/erickedu85/multistream "Github
 Get the last version of this approach with:
 
 	$ git clone https://github.com/erickedu85/multistream
-	$ cd multiresolution-streamgraph
+	$ cd multistream
 	
 
 ## Using
