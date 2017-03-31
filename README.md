@@ -27,16 +27,16 @@ Based on a focus+context technique, our method allows time series exploration at
 * CSS
 
 ## Getting the code
-The code is hosted at [Github](https://github.com/erickedu85/multiresolution-streamgraph "Github")
+The code is hosted at [Github](https://github.com/erickedu85/multistream "Github")
 
 Get the last version of this approach with:
 
-	$ git clone https://github.com/erickedu85/multiresolution-streamgraph
+	$ git clone https://github.com/erickedu85/multistream
 	$ cd multiresolution-streamgraph
 	
 
 ## Using
 * Copy the files from the git repository to your web server (e.g. [HTTP Apache Server](https://httpd.apache.org/ "HTTP Apache Server"))
-* Go to the web page: https://your-web-server/multiresolution-streamgraph 
+* Go to the web page: https://your-web-server/multistream
 
 
