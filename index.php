@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>MultiStream</title>
+<title>Visualizing Hierarchical Time Series with a Focus+Context Approach</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
@@ -23,16 +23,23 @@
 
 	<div class="container">
 		<div class="panel">
-			<h2 class="title" align="center">MultiStream: A Multiresolution
-				Streamgraph Approach to Explore Hierarchical Time Series</h2>
+			<h2 class="title" align="center">Visualizing Hierarchical Time Series with a Focus+Context Approach</h2>
 			<h3 class="title" align="center">An approach to convey the
 				hierarchical structure of multiple time series</h3>
 
 			<div class="text-center">
-				<iframe width="75%" height="370"
-					src="http://www.youtube.com/embed/FoNH2p8JZGs?rel=0"
-					frameborder="0" webkitallowfullscreen mozallowfullscreen
-					allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/230838484" width="85%"
+					height="360" frameborder="0" webkitallowfullscreen
+					mozallowfullscreen allowfullscreen></iframe>
+				<p>
+					<a href="https://vimeo.com/230838484">[VIS17 Preview] Visualizing
+						Hierarchical Time Series with a Focus+Context Approach</a> from <a
+						href="https://vimeo.com/vgtcommunity">VGTCommunity</a>.
+				</p>
+<!-- 				<iframe width="75%" height="370" -->
+<!-- 					src="http://www.youtube.com/embed/FoNH2p8JZGs?rel=0" -->
+<!-- 					frameborder="0" webkitallowfullscreen mozallowfullscreen -->
+<!-- 					allowfullscreen></iframe> -->
 			</div>
 			<br>
 		</div>
@@ -47,10 +54,12 @@
 					hierarchical structure. Our approach extends a <strong> <a
 						href="http://leebyron.com/streamgraph/" target="_blank">
 							Streamgraph</a></strong> visualization to convey this
-					hierarchical structure. Thus, facilitate the exploration of
-					temporal evolution in time series. Based on a focus+context
+					hierarchical structure. Based on a focus+context
 					technique, our method allows time series exploration at different
 					granularities (e.g., from overview to details).
+				</p>
+				<p>
+					<strong>Download:</strong> <a href="download/poster.pdf" target="_blank">Poster</a> | <a href="download/resumen.pdf" target="_blank">Resumen</a>
 				</p>
 			</div>
 			<div class="col-sm-4">

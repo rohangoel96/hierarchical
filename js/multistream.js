@@ -38,8 +38,8 @@ var opts = {
 	//
 	//
 	//
-	minSizeTextLabel : 10,//Minimum label size of text in label flow
-	maxSizeTextLabel : 25,//Maximum label size of text in label flow
+	minSizeTextLabel : 17,//Minimum label size of text in label flow
+	maxSizeTextLabel : 30,//Maximum label size of text in label flow
 	patternTextFont : "10px Sans-Serif", //not used in path background
 	labelTextFont : "Arial",
 	toleranceTextLabel : 1,
@@ -3699,6 +3699,7 @@ function updateRectanglesAndLinksInFocus(){
  * @returns {Array}
  */
 function preProcessing() {
+	var timerStart = Date.now();
 	var results = [];
 	//console.log(dateRange)
 	// Loop from array of dates dividies by ntimeGranularity
@@ -3763,6 +3764,7 @@ function preProcessing() {
 			});
 		}
 	}
+	console.log("Time preProcessing: ",(Date.now()-timerStart) + " milliseconds");
 	return results;
 }
 
@@ -3865,9 +3867,9 @@ function selectAxisFocus(date) {
  */
 function areaFocus(d, index) {
 	// Update each x axis in focus : Local, Distortion, Detailed
-	for (var i = 0; i < axisFocus.length; i++) {
-		focus.selectAll(".x.axis.focus" + i).call(axisFocus[i]);
-	}
+//	for (var i = 0; i < axisFocus.length; i++) {
+//		focus.selectAll(".x.axis.focus" + i).call(axisFocus[i]);
+//	}
 	
 	/* NORMAL AREA */
 	areaNormal = d3.svg.area()

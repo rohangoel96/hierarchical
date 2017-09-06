@@ -38,24 +38,24 @@
 					$getText = TRUE; // to get the text of the values
 					$description = "<strong>About: </strong>This visualization shows the evolution of music genres<br><strong>Period: </strong>From 1960 to 2016<br><strong>Dataset: </strong>10,642 bands. Metadata comes from MusicBrainz web site";
 					break;
-				case 1 :
-					$name = "Sentiment analysis of the 2016 US presidential election day";
-					$fileName = "2016_US_presidential_election_day";
-					$filePath = "source/2016_us_presidential_election_day/json/" . $fileName . ".json";
-					$timePolarity = 0; // 0 minutes, 1 hours, 2 days, 3 week, 4 month, 5 years
-					$nTimeGranularity = 10; // interval by nGranularity minimum 1 max 5
-					$getText = TRUE; // to get the text of the values
-					$description = "<strong>About: </strong>This visualization shows the sentiments expressed in tweets on the 2016 US presidential election day<br><strong>Period: </strong>8-9 November, 2016 (UTC)<br><strong>Dataset: </strong>371,584 tweets with the hashtag #Hillary or #Trump";
-					break;
-// 				case 1 :
-// 					$name = "Sentiment analysis of the 2016 US second presidential debate";
-// 					$fileName = "2016_US_second_presidential_debate";
-// 					$filePath = "source/2016_us_second_presidential_debate/json/" . $fileName . ".json";
+ 				case 1 :
+// 					$name = "Sentiment analysis of the 2016 US presidential election day";
+// 					$fileName = "2016_US_presidential_election_day";
+// 					$filePath = "source/2016_us_presidential_election_day/json/" . $fileName . ".json";
 // 					$timePolarity = 0; // 0 minutes, 1 hours, 2 days, 3 week, 4 month, 5 years
-// 					$nTimeGranularity = 1; // interval by nGranularity minimum 1 max 5
+// 					$nTimeGranularity = 10; // interval by nGranularity minimum 1 max 5
 // 					$getText = TRUE; // to get the text of the values
-// 					$description = "<strong>About: </strong>Tweets collected<br><strong>Period: </strong><br><strong>Tweets: </strong>  <br><strong>Hashtag: </strong>";
+// 					$description = "<strong>About: </strong>This visualization shows the sentiments expressed in tweets on the 2016 US presidential election day<br><strong>Period: </strong>8-9 November, 2016 (UTC)<br><strong>Dataset: </strong>371,584 tweets with the hashtag #Hillary or #Trump";
 // 					break;
+				case 1 :
+					$name = "Sentiment analysis of the 2016 US second presidential debate";
+					$fileName = "2016_US_second_presidential_debate";
+					$filePath = "source/2016_us_second_presidential_debate/json/" . $fileName . ".json";
+					$timePolarity = 0; // 0 minutes, 1 hours, 2 days, 3 week, 4 month, 5 years
+					$nTimeGranularity = 1; // interval by nGranularity minimum 1 max 5
+					$getText = TRUE; // to get the text of the values
+					$description = "<strong>About: </strong>Tweets collected<br><strong>Period: </strong><br><strong>Tweets: </strong>  <br><strong>Hashtag: </strong>";
+					break;
 				case 2 :
 					$name = "Sentiment analysis of the 2013 Australian presidential period";
 					$fileName = "2013_Australian_presidential_period";
