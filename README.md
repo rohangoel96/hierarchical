@@ -1,8 +1,11 @@
-# MultiStream: A Multiresolution Streamgraph Approach to Explore Hierarchical Time Series
+# Visualizing Hierarchical Time Series with a Focus+Context Approach
 ### A new approah to convey the hierarchical structure of multiple time series
 Authors: ADVANSE team at LIRMM
 
 ## Introduction
+
+Inline-style: 
+![alt text](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif "Logo Title Text 1")
 
 Our approach extends a [Streamgraph](http://leebyron.com/streamgraph/ "Streamgraph") to convey the hierarchical structure of multiple time series. 
 Thus, facilitate the exploration of temporal evolution in time series.
@@ -27,16 +30,16 @@ Based on a focus+context technique, our method allows time series exploration at
 * CSS
 
 ## Getting the code
-The code is hosted at [Github](https://github.com/erickedu85/multistream "Github")
+The code is hosted at [Github](https://github.com/erickedu85/hierarchical "Github")
 
 Get the last version of this approach with:
 
-	$ git clone https://github.com/erickedu85/multistream
-	$ cd multistream
+	$ git clone https://github.com/erickedu85/hierarchical
+	$ cd hierarchical
 	
 
 ## Using
 * Copy the files from the git repository to your web server (e.g. [HTTP Apache Server](https://httpd.apache.org/ "HTTP Apache Server"))
-* Go to the web page: https://your-web-server/multistream
+* Go to the web page: https://your-web-server/hierarchical
 
 
