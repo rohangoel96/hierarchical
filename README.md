@@ -1,11 +1,11 @@
 # Visualizing Hierarchical Time Series with a Focus+Context Approach
+<!-- ![alt text](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif "Logo Title Text 1") -->
+
 ### A new approah to convey the hierarchical structure of multiple time series
 Authors: ADVANSE team at LIRMM
 
 ## Introduction
 
-Inline-style: 
-![alt text](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif "Logo Title Text 1")
 
 Our approach extends a [Streamgraph](http://leebyron.com/streamgraph/ "Streamgraph") to convey the hierarchical structure of multiple time series. 
 Thus, facilitate the exploration of temporal evolution in time series.
